@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Lioniq",
-  url: "https://www.lioniq.app",
-  getStartedUrl: "https://www.lioniq.app/docs/getting-started/introduction",
-  ogImage: "https://www.lioniq.app/og.jpg",
+  url: "https://lioniq.app",
+  getStartedUrl: "https://m.lioniq.app",
+  ogImage: "https://lioniq.app/og.jpg",
   description: "Lioniq is a language learning app power by ai.",
   links: {
     twitter: "https://twitter.com/lioniq_app",

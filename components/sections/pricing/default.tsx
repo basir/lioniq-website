@@ -25,7 +25,7 @@ export default function Pricing({
       cta: {
         variant: "glow",
         label: "Get started for free",
-        href: "/docs/getting-started/introduction",
+        href: "https://m.lioniq.app",
       },
       features: [
         "1 website template",

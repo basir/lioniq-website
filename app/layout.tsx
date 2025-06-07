@@ -14,22 +14,14 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL(siteConfig.getStartedUrl),
   description: siteConfig.description,
-  keywords: [
-    "Landing page template",
-    "Components",
-    "Shadcn",
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Radix UI",
-  ],
+  keywords: ["Lioniq", "Language learning app", "AI-powered language learning"],
   authors: [
     {
-      name: "Mikolaj Dobrucki",
-      url: "https://mikolajdobrucki.com",
+      name: "Lioniq",
+      url: "https://lioniq.app",
     },
   ],
-  creator: "mikolajdobrucki",
+  creator: "@lioniq_app",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -51,12 +43,12 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: "@mikolajdobrucki",
+    creator: "@lioniq_app",
   },
-  icons: {
-    icon: "/favicon.svg",
-    apple: "/apple-touch-icon.png",
-  },
+  icons: [
+    { rel: "apple-touch-icon", url: "/icons/icon-512.png" },
+    { rel: "icon", url: "/icons/icon-512.png" },
+  ],
 };
 
 export default function RootLayout({
